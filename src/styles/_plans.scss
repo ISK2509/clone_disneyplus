@@ -10,6 +10,14 @@
         justify-content: space-around; //ajustar o espaçamento horizontal
         margin-top: 50px;
 
+        @media (max-width: 768px) {
+            display: block; //deixar a vs mobile um abaixo do outro (na secao plans!!!!)
+        }
+
+        .button { //nova regra para o mobile, para dar espaçamento no botao assine aqui
+            margin-top: 24px;
+        }
+
         &__item{
             text-align: center;
             padding: 60px 44px 44px; //primeiro em cima, segundo laterias, terceiro embaixo
